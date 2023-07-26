@@ -1,0 +1,1 @@
+{"version":3,"file":"index.module.ts","sources":["../src/index.ts"],"sourcesContent":["console.log(new Error(\"Some mistake\"));\r\n"],"names":["console","log","Error"],"mappings":"AAAAA,QAAQC,IAAI,IAAIC,MAAM"}
