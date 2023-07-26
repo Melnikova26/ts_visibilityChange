@@ -22,3 +22,4 @@ Two additional functions are also implemented:
   const gone = await hidden(); // returns true when the user leaves (or already left)
 })();
 ```
+Link to codesandbox - https://codesandbox.io/p/github/Melnikova26/ts_visibilityChange/develop?file=%2Findex.js%3A1%2C1&workspaceId=677dce6c-c595-48a1-a599-8b19342132d3
