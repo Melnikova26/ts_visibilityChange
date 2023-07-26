@@ -1,2 +1,2 @@
-console.log(new Error("Some mistake"));
+exports.hidden=function(){return new Promise(function(n){document.addEventListener("visibilitychange",function(){document.hidden&&n(!0)})})},exports.visibilityChange=function(){return new Promise(function(n){document.addEventListener("visibilitychange",function e(){document.removeEventListener("visibilitychange",e);var i=!document.hidden;n(i)})})},exports.visible=function(){return new Promise(function(n){document.addEventListener("visibilitychange",function(){document.hidden||n(!0)})})};
 //# sourceMappingURL=index.cjs.map
