@@ -1,2 +1,0 @@
-function n(){return new Promise(function(n){const e=()=>{document.removeEventListener("visibilitychange",e);const i=!document.hidden;n(i)};document.addEventListener("visibilitychange",e)})}function e(){return new Promise(function(n){document.addEventListener("visibilitychange",()=>{document.hidden||n(!0)})})}function i(){return new Promise(function(n){document.addEventListener("visibilitychange",()=>{document.hidden&&n(!0)})})}export{i as hidden,n as visibilityChange,e as visible};
-//# sourceMappingURL=index.modern.js.map
